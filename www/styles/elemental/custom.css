@@ -321,7 +321,7 @@ body table#mobileitem tr td:first-child{
 
 #dashcontent .selectorlevels {
 	font-size: 0.8em;
-	margin-top: -5px !important;
+	margin-top: -3px !important;
 }
 
 .selectorlevels .ui-selectmenu-button.ui-widget {
