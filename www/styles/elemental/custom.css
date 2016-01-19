@@ -322,17 +322,22 @@ body table#mobileitem tr td:first-child{
 #dashcontent .selectorlevels {
 	font-size: 0.8em;
 	margin-top: -3px !important;
+	text-align: center;
 }
 
+#dashcontent .selectorlevels .ui-selectmenu-button.ui-widget {
+	width: 200px !important;
+}
 .selectorlevels .ui-selectmenu-button.ui-widget {
 	font-size: 1em;
-	width: 200px !important;
-	height: 22px;
+	height: 20px;
+	line-height: 10px;
 }
-
 .ui-menu .ui-menu-item,
 .ui-selectmenu-button span.ui-selectmenu-text {
-    text-align: center;
+	text-align: center;
+	font-size: larger;
+	line-height: 10px;
 }
 
 .dimslider {
@@ -381,10 +386,15 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td{
 	#dashcontent .selectorlevels {
 		font-size: 0.8em;
 		margin-top: -25px !important;
+		float: right;
 	}
 	.selectorlevels .ui-selectmenu-button.ui-widget {
 		font-size: 1em;
 		height: 22px;
+		width: 220px !important;
+	}
+	#dashcontent .selectorlevels .ui-button-text-only .ui-button-text {
+		padding: .5em 0.7em;
 	}
 	.container,
 	.navbar-static-top .container,
@@ -406,13 +416,26 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td{
  	}
 	.navbar .nav { margin: 2px !important; }
 	#timesun { display: none; }
+	.selectorlevels {
+		text-align: left;
+	}
 	#dashcontent .selectorlevels {
 		font-size: 0.8em;
-		margin-top: -25px !important;
+		margin-top: -28px !important;
+		float: right;
 	}
 	.selectorlevels .ui-selectmenu-button.ui-widget {
 		font-size: 1em;
 		height: 22px;
+		width: 220px !important;
+	}
+	#dashcontent .selectorlevels .ui-selectmenu-button.ui-widget {
+		font-size: 1em;
+		height: 22px;
+		width: 150px !important;
+	}
+	#dashcontent .selectorlevels .ui-button-text-only .ui-button-text {
+		padding: .5em 0.7em;
 	}
 	.btnstyle,
 	.btnstylerev {
@@ -429,5 +452,5 @@ table.mobileitem {
 }
 
 .mobileitem td:first-child, .mobileitem th:first-child {
-    white-space: nowrap;
+	white-space: nowrap;
 }
