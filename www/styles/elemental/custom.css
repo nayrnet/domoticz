@@ -419,6 +419,10 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td{
 	.selectorlevels {
 		text-align: left;
 	}
+	#dashcontent .dimslider {
+        	width: calc(98% - 40px) !important;
+	        margin-top: 1px !important;
+	}
 	#dashcontent .selectorlevels {
 		font-size: 0.8em;
 		margin-top: -28px !important;
@@ -432,7 +436,7 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td{
 	#dashcontent .selectorlevels .ui-selectmenu-button.ui-widget {
 		font-size: 1em;
 		height: 22px;
-		width: 150px !important;
+		width: 200px !important;
 	}
 	#dashcontent .selectorlevels .ui-button-text-only .ui-button-text {
 		padding: .5em 0.7em;
@@ -453,4 +457,9 @@ table.mobileitem {
 
 .mobileitem td:first-child, .mobileitem th:first-child {
 	white-space: nowrap;
+}
+
+.btn-mini {
+	padding: 0 8px 0px 8px;
+	margin-left: 4px;
 }
